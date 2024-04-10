@@ -18,8 +18,8 @@ TMC_BLDC 电路板部分
 |  5  | Change PMOS package (Q1), Rgs (R27), Rg (R24), R14, R15 |       |
 |  6  | Crystal & capacitor package                   |       |
 |  7  | Inner Power layer shrinks 15mil               |       |
-|  8  | LDO current change from SOT-223 to SOT-89     |       |
-|  9  | Add a current sense resistor to one phase due to DC offset |       |
+|  8  | LDO current change from SOT-223 to SOT-89     |   √   |
+|  9  | Add a current sense resistor to one phase due to DC offset |   √   |
 | 10  | Consider adding a power input fuse            |       |
 | 11  | Replace reset circuit with CAT809 chip        |       |
 | 12  | Add a resistor in series with an active crystal oscillator, and paralleling a large capacitor with a FB |       |
