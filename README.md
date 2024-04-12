@@ -11,7 +11,7 @@ TMC_BLDC 电路板部分
 
 | No. | BUG                                           | Check |
 | :-: | --------------------------------------------- | :---: |
-|  1  | add 12V, 5V, 3.3V test pad                    |       |
+|  1  | add 12V, 5V, 3.3V test pad                    |   √   |
 |  2  | remove HALL                                   |       |
 |  3  | remove Q8                                     |       |
 |  4  | remove R65                                    |   √   |
@@ -21,8 +21,8 @@ TMC_BLDC 电路板部分
 |  8  | LDO current change from SOT-223 to SOT-89     |   √   |
 |  9  | Add a current sense resistor to one phase due to DC offset |   √   |
 | 10  | Consider adding a power input fuse            |       |
-| 11  | Replace reset circuit with CAT809 chip        |       |
+| 11  | Replace reset circuit with CAT809 chip        |   √   |
 | 12  | Add a resistor in series with an active crystal oscillator, and paralleling a large capacitor with a FB |       |
 | 13  | Add an LED in a specific location if have space |       |
-| 14  | Add Turbo Temp Port                           |       |
+| 14  | Add Turbo Temp Port                           |   ×   |
 | 15  | Add TMC Debug Port                           |   √   |
