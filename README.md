@@ -12,11 +12,11 @@ TMC_BLDC 电路板部分
 | No. | BUG                                           | Check |
 | :-: | --------------------------------------------- | :---: |
 |  1  | add 12V, 5V, 3.3V test pad                    |   √   |
-|  2  | remove HALL                                   |       |
+|  2  | remove HALL                                   |   ×   |
 |  3  | remove Q8                                     |       |
 |  4  | remove R65                                    |   √   |
-|  5  | Change PMOS package (Q1), Rgs (R27), Rg (R24), R14, R15 |       |
-|  6  | Crystal & capacitor package                   |       |
+|  5  | Change PMOS package (Q1), Rgs (R27), Rg (R24), R14, R15 |   √   |
+|  6  | Crystal & capacitor package                   |   √   |
 |  7  | Inner Power layer shrinks 15mil               |   √   |
 |  8  | LDO current change from SOT-223 to SOT-89     |   √   |
 |  9  | Add a current sense resistor to one phase due to DC offset |   √   |
