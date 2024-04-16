@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WHAGERDO
 
 [Document3]
-DocumentPath=#NIP涡轮驱动板-MCU.SchDoc
+DocumentPath=#NIP涡轮驱动板-MCUnew.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
